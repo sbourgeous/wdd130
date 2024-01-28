@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+}
+.nav_link {
+    padding: 10px;
+    font-size: 1.3em
+
+}
+img {
+    width: 300px;
+
+}
+a {
+    color: black;
+}
+
+#main_title {
+    font-size: 4em;
+}
