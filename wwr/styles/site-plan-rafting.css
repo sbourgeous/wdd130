@@ -8,8 +8,8 @@ Fonts are separated by a & */
   /* change the values below to your colors from your palette */
   --primary-color: #fcf5f3   ;
   --secondary-color: #342B1E ;
-  --accent1-color: #42BE7D;
-  --accent2-color: #CCCC83;
+  --accent1-color: #d9c2a3;
+  --accent2-color: #42BE7D;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Bebas Neue";
@@ -24,7 +24,7 @@ Fonts are separated by a & */
   --nav-link-color: #fcf5f3;
   --nav-background-color: #342b1e;
   --nav-hover-link-color: #fcf5f3;
-  --nav-hover-background-color: #cccc83;
+  --nav-hover-background-color: #d9c2a3;
 }
 
 
