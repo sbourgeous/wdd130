@@ -1,3 +1,6 @@
+@import url('https://fonts.google.com/specimen/Bebas+Neue');
+@import url('https://fonts.google.com/specimen/Bitter');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -20,6 +23,13 @@ main section{
 }
 body{
     background-color: #fcf5f3;
+    font-family: "Bitter", Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header{
     background-color: #342B1E;
@@ -33,19 +43,29 @@ header{
 .icon{
     width: 80px;
     height: 80px;
+    padding-top: 10px;
 }
 .card-img{
     width: 35%;
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
 nav a{
     text-align: center;
     color: #fcf5f3;
     text-decoration: none;
+    padding: 35px;
 }
 .book, .join{
     text-align: center;
     color: #342B1E;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #342B1E;
@@ -53,6 +73,8 @@ nav a{
 }
 .msg{
     background-color: #d9c2a3;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer a{
     text-align: center;
@@ -65,6 +87,8 @@ footer a:hover{
 }
 footer{
     background-color: #42BE7D;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
@@ -79,6 +103,9 @@ nav a:hover {
 }
 .home-title{
     color: #342B1E;
+    font-size: 2em;
+    margin-top: 10px;
+    font-family: "Bebas Neue"
 }
 h4{
     color: #342B1E;
@@ -88,7 +115,18 @@ h4{
 }
 .msg p{
     color: #342B1E;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .mountains{
     width: 50%;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
