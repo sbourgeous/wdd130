@@ -199,6 +199,42 @@ nav {
     display: grid;
     grid-template-columns: repeat(10,1fr);
 }
+.sub-grid {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
+
+.faq-img{
+    width: 85%;
+    height: 85%;
+    grid-column: 2/6;
+    grid-row: 2/4;
+    border: 10px solid #d9c2a3;
+    box-shadow: 5px 5px 10px #342B1E;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.age-msg {
+    grid-column: 6/10;
+    grid-row: 2/4;
+    text-align: left;
+    line-height: 1.5em;
+    padding: 15px;
+}
+.safe-msg {
+    grid-column: 2/10;
+    grid-row: 5/7;
+    text-align: left;
+    line-height: 1.5em;
+    padding: 15px;
+}
+.trip-msg{
+    grid-column: 2/10;
+    grid-row: 8/10;
+    text-align: left;
+    line-height: 1.5em;
+    padding: 15px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
