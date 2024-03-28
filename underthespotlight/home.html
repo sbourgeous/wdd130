@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Lamp</title>
+    <link rel="stylesheet" href="styles/site.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="home.html">
+                <img class="logo" src="lightimages/codelamp.png" alt="Code Lamp Logo">
+            </a>
+            <nav>
+                <a class="nav_link" href="home.html">Home</a>
+                <a class="nav_link" href="products.html">All Products</a>
+                <a class="nav_link" href="faqs.html">FAQS</a>
+            </nav>
+        </header>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="lightimages/myhomeimg.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="lightimages/secondhome.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="lightimages/thirdhome.jpg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+<main class="home-grid">
+    <h1>Bright Ideas for Every Desk</h1>
+    <p>
+        Illuminate your world in more ways than one. We understand that lighting isn't just about brightness; it's about setting the stage for inspiration, fostering creativity, and enhancing your overall well-being. That's why we've curated a collection of desk lamps that seamlessly blend form and function. 
+    </p>
+    <p>
+        Our mission is simple: to offer you the perfect lighting solution for your living or workspace. Whether you're burning the midnight oil on a crucial project or unwinding with a good book after a long day, our lamps are designed to provide optimal illumination without compromising on style.
+    </p>
+    <p>
+        What truly sets us apart is our commitment to innovation. We don't just stop at sleek designs; we integrate cutting-edge technology into every aspect of our lamps. From adjustable brightness levels to customizable color temperatures, our lamps are equipped with features that adapt to your needs and preferences.
+    </p>
+    <p>
+        So why settle for ordinary lighting when you can experience the extraordinary with Code Lamp? Join us in brightening up your world and preventing those dreaded code red moments. Let's illuminate the path to productivity, creativity, and inspiration together.
+    </p>
+</main>
+        <footer>
+            <p>Code Lamp &copy; 2024 - Samuel Bourgeous</p>
+            <p><a href="site-plan.html">Personal Site Plan</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="lightimages/facebookimg.png" alt="facebook icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="lightimages/twitterimg.jpg" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="lightimages/instagramimg.jpg" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
