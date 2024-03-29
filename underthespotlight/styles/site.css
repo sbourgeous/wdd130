@@ -108,15 +108,34 @@ img {vertical-align: middle;}
     margin-right: auto;
     font-size: 1.1em;
 }
+.home-grid hr {
+    color: #717171;
+}
+.home-grid hr:nth-of-type(1) {
+    width: 75%;
+}
+.home-grid hr:nth-of-type(2) {
+    width: 50%;
+}
+.home-grid hr:nth-of-type(3) {
+    width: 50%;
+}
+.home-grid hr:nth-of-type(4) {
+    width: 50%;
+}
+.home-grid hr:nth-of-type(5) {
+    width: 75%;
+    margin-bottom: 50px;
+}
 .products-grid h1{
     text-align: center;
     font-size: 3em;
 }
-hr {
+.products-grid hr {
     margin-top: 25px;
     margin-bottom: 25px;
     max-width: 75%;
-    background-color: #030303;
+    color: #717171;
 }
 .products-grid p {
     font-size: 1.1em;
