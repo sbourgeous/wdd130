@@ -96,7 +96,9 @@ img {vertical-align: middle;}
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
+.slideshow-container img{
+    width: 100%;
+}
 .home-grid h1 {
     text-align: center;
     justify-content: center;
